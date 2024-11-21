@@ -1,5 +1,5 @@
 function reversenumber(n) {
-  for (i = n; i >= 1; i = n - 1) {
+  for (i = n; i >= 1; i = i - 1) {
     console.log(i);
   }
 }
